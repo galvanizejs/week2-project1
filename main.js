@@ -19,39 +19,38 @@
 // 3. Using the "me" object, use the two different methods to access the value of your city.
 
 // Use the following Object for questions 4-9:
-var invitees = { adults: [{
-                          name: "Penny",
-                          table: 10,
-                          dinnerChoice: ["salad", "beef", "ice cream"]
-                        },
-                        {
-                          name: "Billy",
-                          table: 12,
-                          dinnerChoice: ["soup", "beef", "sorbet"]
-                        },
-                        {
-                          name: "Lauren",
-                          table: 3,
-                          dinnerChoice: ["soup", "chicken", "ice cream"],
-                          specialConsiderations: { allergies: "melon",
-                                                   seating: "Don't sit her next to ex husband at table 8."}
-                        }
-                        ],
-                  children: [{
-                             name: "Junior",
-                             table: 4,
-                             allergies: ["nuts"]
-                            },
-                            { name: "Pablo",
-                            table: 4,
-                            allergies: ["gluten", "following directions"]
-                            },
-                            { name: "Ada",
-                            table: 4,
-                            allergies: ["boys"]
-                            }
-                         ]
-                      };
+var invitees = {
+    adults: [{
+        name: "Penny",
+        table: 10,
+        dinnerChoice: ["salad", "beef", "ice cream"]
+    }, {
+        name: "Billy",
+        table: 12,
+        dinnerChoice: ["soup", "beef", "sorbet"]
+    }, {
+        name: "Lauren",
+        table: 3,
+        dinnerChoice: ["soup", "chicken", "ice cream"],
+        specialConsiderations: {
+            allergies: "melon",
+            seating: "Don't sit her next to ex husband at table 8."
+        }
+    }],
+    children: [{
+        name: "Junior",
+        table: 4,
+        allergies: ["nuts"]
+    }, {
+        name: "Pablo",
+        table: 4,
+        allergies: ["gluten", "following directions"]
+    }, {
+        name: "Ada",
+        table: 4,
+        allergies: ["boys"]
+    }]
+};
 
 // 4. Access Penny's dinner choice (this will be the second item in his dinnerChoice array)
 
@@ -75,32 +74,32 @@ var invitees = { adults: [{
 
 // 13. Clear the classmates value.
 
-// 14. Create an empty array called "books".
+// 14. Create an empty object called "books".
 
 // 15. Create three book objects that contain book titles, their author, and number of pages.
-//     The name of each object should be some kind of made up ISBN number.
+//     Each book object should have some kind of made up ISBN number.
 //     (Feel free to make up the titles. And the authors. Have fun. No pressure.)
-//     Insert the three objects into the "books" array.
-
-
+//     Insert the three objects into the "books" object.
 
 // Final desired result:
-    // var books = [ISBN22222:  {
-    //                             title: "You Had Me at Woof",
-    //                             author: "Julie Klum",
-    //                             pages: 207
-    //                           },
-    //              ISBN33333:  {
-    //                             title: "The Catcher in the Rye",
-    //                             author: "JD Salinger",
-    //                             pages: 214
-    //                           },
-    //              ISBN44444:  {
-    //                             title: "Bangkok Haunts",
-    //                             author: "John Burdett",
-    //                             pages: 569,
-    //                           }
-    //             ]
+// var books = {
+//     ISBN22222: {
+//         title: "You Had Me at Woof",
+//         author: "Julie Klum",
+//         pages: 207
+//     },
+//     ISBN33333: {
+//         title: "The Catcher in the Rye",
+//         author: "JD Salinger",
+//         pages: 214
+//     },
+//     ISBN44444: {
+//         title: "Bangkok Haunts",
+//         author: "John Burdett",
+//         pages: 569,
+//     }
+// }
+
 
 // 16. Access the author of the first book.
 
@@ -109,6 +108,6 @@ var invitees = { adults: [{
 // 18. To each book object variable, add a key of "dateRead" with a value of the year you read the book.
 //     (Go ahead and make this up, too. Get wild.)
 
-// 19. Remove the second book from the books Array.
+// 19. Remove the second book from the books object.
 
 // Bonus: Explain, in your own words, the difference between Literal Notation and Constructor Notation.
